@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(54, 51, 51);
     color: white;
     font-family: "Chakra Petch", sans-serif;
     margin: 0px;
@@ -13,8 +13,16 @@ p {
     font-size: 20px;
 }
 header {
-    border-bottom: solid 2px rgb(42,122,228);
+    
+    border-bottom: solid 2px rgb(255, 255, 255);
     padding: 20px;
     font-size: 32px;
-    color:rgb(42,122,228);
+    color:rgb(255, 0, 0);
+}
+.video-borda {
+    border: 10px solid #ff1100; /* Cor da borda */
+    border-radius: 10px;       /* Cantos arredondados */
+    padding: 8px;              /* Espaço interno entre vídeo e borda */
+    width: fit-content;        /* Para a borda não ficar maior que o vídeo */
+    margin: auto;              /* Centraliza horizontalmente */
 }
