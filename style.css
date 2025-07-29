@@ -42,4 +42,24 @@ p {
     font-size: 20px;
     margin-bottom: 30px;
 }
+.categoria-videos {
+    display: flex;
+    flex-wrap: wrap;             /* Quebra linha em telas pequenas */
+    justify-content: center;     /* Centraliza os vídeos */
+    gap: 20px;                   /* Espaçamento entre vídeos */
+    padding: 20px;
+}
+
+.categoria-videos img {
+    width: 300px;                /* Tamanho fixo para cada vídeo */
+    border-radius: 10px;
+    border: 4px solid white;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.categoria-videos img:hover {
+    transform: scale(1.05);      /* Zoom ao passar o mouse */
+    border-color: red;
+    cursor: pointer;
+}
 
